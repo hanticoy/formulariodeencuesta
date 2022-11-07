@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de encuesta</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <article class="myform" >
+        <form action="/resultado" method="post">
+            <br>
+            <div class="linea">
+                <div><b>Your name:</b></div>
+                <div><input  class="campo" type="text" name="name" id="name"></div>
+            </div>
+            <br><div class="linea">
+                <div><b>Dojo Location: </b></div>
+                <div><select  class="campo" name="dojoLocation" id="dojoLocation"><option value="Santiago">Santiago</option><option value="San Pedro">San Pedro</option></select> </div>
+            </div>
+            <br><div class="linea">
+                <div><b>Favorite Lenguaje:</b> </div>
+                <div><select  class="campo" name="favoriteLenguage" id="favoriteLenguage"><option value="JavaScript">JavaScript</option><option value="Net">.Net</option></select> </div>
+                </div>
+            <br><div class="linea2">
+                <div><b>Comment (Optional)</b></div>
+                <div><br><textarea name="comentario" id="comentario" cols="100" rows="10"></textarea>   </div>
+            </div>
+            <br><div>
+                <input type="submit" value="Enviar">
+            </div>
+            <br>
+        </form>
+    </article>
+</body>
+</html>

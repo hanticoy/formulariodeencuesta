@@ -1,0 +1,18 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px, auto;
+}
+
+article {
+    border-color: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-top: 30px;
+}
+.linea {
+    padding: 10px;
+    border-color: 5px solid green;
+}
